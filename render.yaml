@@ -1,0 +1,9 @@
+services:
+  - type: static
+    name: ai-wardrobe-organizer
+    env: static
+    buildCommand: npm run build
+    publishDir: dist
+    envVars:
+      - key: NODE_VERSION
+        value: 20.12.2
