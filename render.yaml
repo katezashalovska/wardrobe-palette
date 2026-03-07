@@ -2,7 +2,7 @@ services:
   - type: static
     name: ai-wardrobe-organizer
     env: static
-    buildCommand: npm install && npm run build
+    buildCommand: npm ci && npm run build -- --verbose
     publishDir: dist
     envVars:
       - key: NODE_VERSION
