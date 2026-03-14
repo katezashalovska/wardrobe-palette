@@ -91,6 +91,7 @@ h1 {
     letter-spacing: -0.03em;
     background: linear-gradient(to bottom right, #0F172A 30%, #475569);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: fadeInUp 1s ease-out;
 }
